@@ -16,6 +16,8 @@ To create a webhook:
 If the server is hosted externally and the host has a online panel, copy the link to that panel and paste it into the `panel_page` variable in the `login_alert.py` file.
 Doing this will allow you to access your server settings/options with ease.
 
+If this is not externally hosted or there is no web panel, please leave the variable blank.
+
 ## Setting up
 Please make sure you are on Ubuntu 20+ as it may not work properly on other versions.
 You will also need to have python3 installed (this should already come preinstalled).
