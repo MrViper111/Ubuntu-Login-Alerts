@@ -21,7 +21,7 @@ Please make sure you are on Ubuntu 20+ as it may not work properly on other vers
 You will also need to have python3 installed (this should already come preinstalled).
 
 1. Go to your root directory then type `cd /etc/profile.d`. Files in this directory will be ran on login.
-2. Type `"touch login_alert.sh` to create the file that will run our python script.
+2. Type `touch login_alert.sh` to create the file that will run our python script.
 3. Type `nano login_alert.sh` to open the text editor. Copy the code from `login_alert.sh` on this page and right click to paste it into the editor. Then, click CTRL+x and ENTER to close and save the file.
 4. Type `touch login_alert.py` to create the python file.
 5. Type `nano login_alert.py` and paste in the code from `login_alert.py` from this page. Then, click CTRL+x and ENTER to save and close the editor.
