@@ -7,7 +7,7 @@ panel_page = "" # If the server is hosted externally, add a link to the panel he
 webhook_url = "" # Put the Discord webhook URL here
 
 embed = {
-    "description": f"Someone has logged into `{server_ip}`! If this was not you, please power off the machine and change the password [here]({linode_page})",
+    "description": f"Someone has logged into `{server_ip}`! If this was not you, please power off the machine and change the password [here]({panel_page})",
     "title": ":inbox_tray: Logged In",
     "color": 2752256
 }
